@@ -56,9 +56,8 @@ for(let i=0; i<teachers.length; i++){
 for(let i=0; i<teachers.length; i++){
  let teachersString=[];
   teachersString += teachers[i];
-  if(i<teachers.length){
-    teachersString += '.'
-    console.log(teachersString);
-    
+
+ if (i < teachers.length - 1) {
+    teachersString += ', ';
   }
 }
